@@ -1,6 +1,6 @@
 Package: arcgisbinding
-Version: 1.0.1.239
-Date: 2020-01-16
+Version: 1.0.1.240
+Date: 2020-04-29
 Title: Bindings for ArcGIS
 Author: Esri
 Maintainer: Esri <R_bridge@esri.com>
@@ -25,4 +25,4 @@ URL: http://esri.com
 BugReports: https://github.com/R-ArcGIS/r-bridge/issues
 OS_type: windows
 Encoding: UTF-8
-Archs: i386, x64
+Archs: x64

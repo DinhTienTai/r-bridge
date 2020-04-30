@@ -1,6 +1,6 @@
 Package: arcgisbinding
-Version: 1.0.1.239
-Date: 2020-01-16
+Version: 1.0.1.241
+Date: 2020-04-29
 Title: Bindings for ArcGIS
 Author: Esri
 Maintainer: Esri <R_bridge@esri.com>
@@ -8,7 +8,7 @@ NeedsCompilation: no
 Description: This package provides classes for loading, converting and exporting
     ArcGIS datasets and layers in R.
 Depends:
-    R (>= 3.3.2)
+    R (>= 4.0)
 Imports:
     methods
 Suggests:
@@ -25,4 +25,4 @@ URL: http://esri.com
 BugReports: https://github.com/R-ArcGIS/r-bridge/issues
 OS_type: windows
 Encoding: UTF-8
-Archs: ?
+Archs: x64
