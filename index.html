@@ -1,52 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script type="text/javascript">
-function initialize()
-{
- var ver="1.0.1.241";
-
- document.getElementById("VER").innerHTML = ver;
- var a = document.getElementById("A_VER");
- a.href="bin/windows/contrib/3.1/arcgisbinding_"+ver+".zip";
- a.innerHTML="arcgisbinding_" + ver + ".zip"
-}
-</script>
-
-<link rel="stylesheet" type="text/css" href="html/R.css"/>
-<style>
-td.c2
-{
-  text-indent: 20px;
-}
-</style>
-
-<title>ArcGIS R Bridge</title>
+  <title>ArcGIS R Bridge</title>
+  <link rel="stylesheet" type="text/css" href="https://cran.r-project.org/R.css">
 </head>
-<body onload="initialize()">
+<body>
 
-<h1>R Bridge for ArcGIS Pro 1.1+ and ArcGIS 10.3.1+</h1>
+<h1>Download R Bridge for ArcGIS</h1>
 <hr/>
 
-<h3>Current build: <span id="VER"/></h3>
+<h3>Current build: 1.0.1.240:</h3>
+<ul>
+  <li>Download for R 4.0 (x64) <a href="bin\windows\contrib\4.0\arcgisbinding_1.0.1.240.zip">arcgisbinding_1.0.1.240.zip</a></li>
+  <li>Download for R 3.6 (i386, x64) <a href="bin\windows\contrib\3.6\arcgisbinding_1.0.1.240.zip">arcgisbinding_1.0.1.240.zip</a></li>
+</ul>
 
-<object data="DESCRIPTION" type="text/plain" width="100%" height="280px">
-</object>
+<h5>Install latest version:</h5>
+<pre><span style="color:red">&gt;</span> install.packages("arcgisbinding", repos="http://r-arcgis.github.io/r-bridge", type="win.binary")</pre>
 
-<div>
+<h5>Check and update to latest version:</h5>
+<pre><span style="color:red">&gt;</span> update.packages(repos="http://r-arcgis.github.io/r-bridge", type="win.binary")</pre>
+
+<!--
 <h3>Requirements:</h3>
 R-3.6+ for Windows
-<a href="https://cran.r-project.org/bin/windows/base/">
- (https://cran.r-project.org/bin/windows/base/)
-</a>
-</div>
-
-
-<h3>Installation command from the R Console:</h3>
-<pre><span style="color:red">&gt; </span>install.packages("arcgisbinding", repos="http://r-arcgis.github.io/r-bridge", type="win.binary")</pre>
-
-<h3>Update command:</h3>
-<pre><span style="color:red">&gt; </span>update.packages(repos="http://r-arcgis.github.io/r-bridge")</pre>
+<a href="https://cran.r-project.org/bin/windows/base/">(https://cran.r-project.org/bin/windows/base/)</a>
+-->
 
 </body>
 </html>
